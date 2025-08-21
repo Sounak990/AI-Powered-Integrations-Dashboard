@@ -1,6 +1,0 @@
-.form-control.saved-class {
-    background-color: #ddd; /* a light gray background */
-    color: #666; /* darker text color for contrast */
-    border-color: #aaa; /* a subtle border change */
-    cursor: not-allowed; /* change cursor to indicate no interaction */
-}
