@@ -1,0 +1,37 @@
+.grades-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grade-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Color coding for grades */
+  .grade-A { background-color: #5cf161; } /* Green for A */
+  .grade-B { background-color: rgb(217, 240, 197); } /* Light Green for B */
+  .grade-C { background-color: #ffecb3; } /* Yellow for C */
+  .grade-D { background-color: #ffe0b2; } /* Orange for D */
+  .grade-E { background-color: #ef9ca5; } /* Red for F */
+  .grade-F { background-color: #e94e5d; } /* Red for F */
+  
+  /* Hover effect */
+  .grade-cell:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grade-category {
+    font-weight: bold;
+  }
+  
+  .grade-value {
+    font-size: large;
+    margin-top: 5px;
+  }
+  

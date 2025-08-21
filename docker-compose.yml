@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  react-app:
+    build: .
+    volumes:
+      - /var/www/maraca:/usr/src/app/dist
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "3000:3000"

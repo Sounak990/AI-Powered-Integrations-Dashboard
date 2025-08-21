@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --primaryColor: 165 100% 41%;
+
+    --background: 220 10% 12%;
+    --foreground: 175 10% 97.05%;
+
+    --muted: 175 50% 12.299999999999999%;
+    --muted-foreground: 175 10% 54.1%;
+
+    --popover: 175 45% 5.33%;
+    --popover-foreground: 175 10% 97.05%;
+
+    --card: 175 45% 5.33%;
+    --card-foreground: 175 10% 97.05%;
+
+    --border: 175 50% 12.299999999999999%;
+    --input: 175 50% 12.299999999999999%;
+
+    --primary: 165 100% 41%;
+    --primary-foreground: 175 10% 97.05%;
+
+    --secondary: 175 50% 12.299999999999999%;
+    --secondary-foreground: 175 10% 97.05%;
+
+    --accent: 175 50% 12.299999999999999%;
+    --accent-foreground: 175 10% 97.05%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 175 10% 97.05%;
+
+    --ring: 175 100% 41%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-UltraLight.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Thin.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}

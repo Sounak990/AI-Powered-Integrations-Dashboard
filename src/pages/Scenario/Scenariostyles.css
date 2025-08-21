@@ -1,0 +1,86 @@
+/* ScenarioStyles.css */
+
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-lg-12 {
+    padding: 0 15px;
+    margin-bottom: 20px; /* This adds spacing below the column for the button */
+}
+
+.page-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.custom-alert {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px; /* This adds spacing below the button */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    display: block; /* This makes the button take its own line */
+}
+
+.custom-modal {
+    border-radius: 5px;
+}
+
+.custom-table {
+    width: 100%;
+    margin-top: 20px; /* This adds spacing above the table */
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.custom-table th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.custom-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h5 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .custom-modal .modal-body {
+    padding: 20px;
+  }
+  
+  .custom-button.mb-4 {
+    margin-bottom: 15px !important;
+  }
+  
