@@ -1,0 +1,42 @@
+/* General styling for the bot-cell */
+.bot-cell {
+  cursor: pointer;
+}
+
+.bot-cell.disabled-bot {
+  background-color: #f0f0f0; /* Light grey color to indicate disabled */
+  cursor: not-allowed;
+}
+
+/* General styling for bot-name and bot-job */
+.bot-name,
+.bot-job {
+  font-weight: bold;
+  color: black; /* Default color for visibility */
+}
+
+.bot-job {
+  color: #555; /* A slightly darker grey for job titles */
+}
+
+/* Specific styles to ensure visibility for completed bots */
+.bot-cell.disabled-bot .bot-name,
+.bot-cell.disabled-bot .bot-job {
+  color: grey; /* Grey color for disabled state */
+  text-decoration: line-through; /* Optional: strikethrough to indicate completion */
+  opacity: 0.8; /* Slight opacity change to indicate disabled state */
+}
+
+/* Additional styling for the table and cell layout */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.buyer-bots {
+  width: 100%;
+}
+
+.avatar-sm {
+  width: 40px;
+  height: 40px;
+}

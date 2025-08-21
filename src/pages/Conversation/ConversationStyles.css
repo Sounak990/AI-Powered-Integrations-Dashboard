@@ -1,0 +1,93 @@
+.conversation-card {
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 16px;
+}
+
+.conversation-card.practice {
+  border-left: 8px solid #007bff; /* Blue for Practice Conversations */
+}
+
+.conversation-card.roleplay {
+  border-left: 8px solid #28a745; /* Green for Roleplay Conversations */
+}
+
+.conversation-card-header {
+  background-color: #f8f9fa;
+}
+
+.conversation-card-body {
+  background-color: #fff;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.date-time {
+  color: #666;
+}
+
+.conversation-id {
+  color: #333;
+}
+
+.card-body {
+  margin-top: 8px;
+}
+
+.summary {
+  font-size: 14px;
+  color: #444;
+}
+
+.feedback {
+  margin-top: 8px;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.grade-badge {
+  background-color: red;
+  color: #fff;
+}
+
+.feedback-count {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-details {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-listen {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-download {
+  background-color: #17a2b8;
+  color: #fff;
+}
