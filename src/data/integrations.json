@@ -77,7 +77,7 @@
                             },
                             "example": {
                                 "client_id": "3MVG9JJwBBbcN47I2GmNC_sfzj2HZ2ONbM7TXOyn57clgpu_I2HzNdbK4wMOZLiYwdIMjeGRzyGkzm94APp4u",
-                                "client_secret": "72377C5EA11E3800E3FB68D537C0D1D500EE7290EC97116B2CF924E6A07B0D62",
+                                "client_secret": "",
                                 "provider": "salesforce",
                                 "tenant_id": "11507a0e2f5e",
                                 "integration_name": "Production Salesforce",
